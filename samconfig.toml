@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "www-shishirjaiswal-com-sam-backend"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-g9lg2xvwkwhm"
+s3_prefix = "www-shishirjaiswal-com-sam-backend"
+region = "ca-central-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
